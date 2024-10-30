@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="refresh" content="0; URL=./index.html">
+    <title>Redirecting...</title>
+</head>
+<body>
+    <script type="text/javascript">
+        // Preserve the path after redirect
+        var pathname = window.location.pathname.replace('/repository-name', '');
+        window.location.replace('/repository-name/index.html' + '#' + pathname);
+    </script>
+</body>
+</html>
